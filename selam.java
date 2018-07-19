@@ -1,8 +1,12 @@
-package us;
+package tn;
 
 public class selam {
- public void whichpackage()
+ 
+
+	
+
+public void whichpackage()
  {
-	 System.out.println("belongs to us");
+	System.out.println("belongs to tn"); 
  }
 }
