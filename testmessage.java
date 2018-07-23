@@ -9,7 +9,16 @@ public class testmessage {
 		System.out.println(m1.getMessageId()); 
 		System.out.println(m1.getMessageType());
 		System.out.println(m1.getMessageSource()); 
-		System.out.println(m1.getMessage());  
+		System.out.println(m1.getMessage());
+		
+		
+		FacebookReader f=new FacebookReader();
+		message m2=f.pollForNewMessge();
+		System.out.println(m2.getMessageId()); 
+		System.out.println(m2.getMessageType());
+		System.out.println(m2.getMessageSource()); 
+		System.out.println(m2.getSender());
+		System.out.println(m2.getMessage());
 		
 	}
 
